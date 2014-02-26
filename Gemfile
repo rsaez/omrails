@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.1'
 
 group :production do
-	gem 'pg'
+	gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
 end
 
 group :development, :test do
